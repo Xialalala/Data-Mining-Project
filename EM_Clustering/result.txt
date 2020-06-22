@@ -1,0 +1,12 @@
+
+assign6.py iris.txt 3 0.0001
+score: 0.9866666666666667
+\
+\
+assign6.py IR2RC_truth.txt 3 0.001
+
+score: 0.9891067538126361
+\
+\
+assign6.py dancing_truth.txt 5 0.0001
+score: 0.9067164179104478
