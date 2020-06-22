@@ -1,0 +1,39 @@
+assign3.py
+
+when eps=0.0001, eta=0.0001, the w1 is: [-1.94908553  5.31053023  2.21157116  1.06119982 -4.57649526  2.05879247
+ -0.31153082 -1.61984667  8.30236965]
+accuracy_w1_test 0.8543689320388349------the best
+accuracy_w1_train 0.8118932038834952
+
+when eps=0.0005, eta=0.0005, the w2 is: [-1.9508222   5.31224007  2.21305361  1.06229442 -4.57705385  2.0577785
+ -0.31105841 -1.61908079  8.30490497]
+accuracy_w2_test 0.8543689320388349------the best
+accuracy_w2_train 0.8118932038834952
+
+when eps=0.001, eta=0.001, the w1 is: [-1.95338035  5.31591715  2.21609311  1.06488956 -4.57775069  2.05611019
+ -0.30971899 -1.61708549  8.3100433 ]
+accuracy_w1_test 0.8543689320388349
+accuracy_w1_train 0.8106796116504854
+
+when eps=0.01, eta=0.01, the w2 is: [-2.07932324  5.42582094  2.3124026   1.13353326 -4.609514    1.99254235
+ -0.28062775 -1.5694073   8.4559629 ]
+accuracy_w2_test 0.8495145631067961
+accuracy_w2_train 0.8118932038834952
+
+assign3kernel.py
+
+The linear_kernel regression prediction accuracy is : 0.8398058252427184
+
+The quadratic_kernel regression prediction accuracy is : 0.9174757281553398
+
+when spread=0.1, The gaussian_kernel regression prediction accuracy is : 0.9320388349514563
+
+when spread=0.5, The gaussian_kernel regression prediction accuracy is : 0.9563106796116505
+
+when spread=1, The gaussian_kernel regression prediction accuracy is : 0.9514563106796117
+
+when spread=10, The gaussian_kernel regression prediction accuracy is : 0.8883495145631068
+
+when spread=100, The gaussian_kernel regression prediction accuracy is : 0.8349514563106796
+
+Therefore, when spread=0.5, the accuracy is the highest.
