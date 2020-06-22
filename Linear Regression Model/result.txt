@@ -1,0 +1,23 @@
+Last login: Sat Oct 12 20:08:10 on ttys001
+(base) fuxiadeMacBook-Pro:~ fuxia$ cd desktop
+(base) fuxiadeMacBook-Pro:desktop fuxia$ python3 assign2.py
+The weight vector w is:
+ [-17.24539625   0.55562442   0.08773072   0.08452796   0.0179539
+   0.06947436  -1.45080054   0.02084561   1.34623322  -0.62578718
+   0.97001615  -0.07321047]
+the l2_norm of w is: 17.40654768160265
+SSE for train dataset 43044033.06011553
+The R square for training data: 0.8337862592425116
+SSE for testing dataset 42278878.33097832
+The R square for testing data: 0.8203076046644387
+Ridge regression prediction: the most important factor are 'TEMP','PM10','DEWP'etc, when I set ridge value equals to 1000.
+(base) fuxiadeMacBook-Pro:desktop fuxia$ 
+
+
+
+
+
+
+
+
+
